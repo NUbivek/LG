@@ -260,65 +260,69 @@
             </div>
         </div>
                 <!-- Add these new tab content divs right before the closing </div> of the tabs container -->
-        <div id="thesis-deep-dive" class="tab-content">
-            <h2>Thesis Deep-Dive</h2>
-            <div class="pdf-container">
-                <div class="pdf-navigation">
-                    <div class="pdf-selector">
-                        <button class="pdf-tab active" onclick="switchPDF('sci-tms')">
-                            <span class="pdf-icon">📦</span>
-                            <span class="pdf-title">Supply Chain Software Ecosystem</span>
-                        </button>
-                        <button class="pdf-tab" onclick="switchPDF('linkedin-article1')">
-                            <span class="pdf-icon">🚚</span>
-                            <span class="pdf-title">Integrated Logistics Software</span>
-                        </button>
-                        <button class="pdf-tab" onclick="switchPDF('linkedin-article2')">
-                            <span class="pdf-icon">📋</span>
-                            <span class="pdf-title">Supply/Demand Planning</span>
-                        </button>
-                        <button class="pdf-tab onclick" onclick="switchPDF('hdi')">
-                            <span class="pdf-icon">🫀</span>
-                            <span class="pdf-title">Data Interoperability in Healthcare</span>
-                        </button>
-                        <button class="pdf-tab" onclick="switchPDF('linkedin-article3')">
-                            <span class="pdf-icon">🧱</span>
-                            <span class="pdf-title">Raw-Materials & Agriculture</span>
-                        </button>
-                        <button class="pdf-tab onclick" onclick="switchPDF('linkedin-article4')">
-                            <span class="pdf-icon">🏭</span>
-                            <span class="pdf-title">Manufacturing Tech</span>
-                        </button>
-                    </div>
+<div id="thesis-deep-dive" class="tab-content">
+    <h2>Thesis Deep-Dive</h2>
+    <div class="pdf-container">
+        <div class="pdf-navigation">
+            <div class="pdf-selector" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 10px;">
+                <div style="display: flex; justify-content: center; gap: 10px; width: 100%;">
+                    <button class="pdf-tab active" onclick="switchPDF('sci-tms')">
+                        <span class="pdf-icon">📦</span>
+                        <span class="pdf-title">Supply Chain Software Ecosystem</span>
+                    </button>
+                    <button class="pdf-tab" onclick="switchPDF('linkedin-article1')">
+                        <span class="pdf-icon">🚚</span>
+                        <span class="pdf-title">Integrated Logistics Software</span>
+                    </button>
+                    <button class="pdf-tab" onclick="switchPDF('linkedin-article2')">
+                        <span class="pdf-icon">📋</span>
+                        <span class="pdf-title">Supply/Demand Planning</span>
+                    </button>
                 </div>
-                <div class="pdf-viewer">
-                    <iframe id="sci-tms" class="pdf-frame active"
-                src="https://docs.google.com/viewer?url=https://github.com/NUbivek/NUbivek.github.io/raw/main/SCI%20%26%20Mixed-TMS_AgenticSolutionThesis.pdf&embedded=true&rm=minimal"
-                frameborder="0" width="100%" height="700px" loading="lazy">
-                    </iframe>
-                    <iframe id="linkedin-article1" class="pdf-frame"
-                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7282123427535040512"
-                        frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
-                    </iframe>
-                    <iframe id="linkedin-article2" class="pdf-frame"
-                        src="https://www.linkedin.com/embed/feed/update/urn:li:share:7280613944342265857"
-                        frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
-                    </iframe>
-                    <iframe id="hdi" class="pdf-frame"
-                src="https://docs.google.com/viewer?url=https://github.com/NUbivek/NUbivek.github.io/raw/main/State%20of%20Health%20Data%20Interoperability%20%26%20VBC.pdf&embedded=true&rm=minimal"
-                frameborder="0" width="100%" height="700px" loading="lazy">
-                    </iframe>
-                     <iframe id="linkedin-article3" class="pdf-frame"
-                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7308752918734680064?collapsed=1"
-                        frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
-                    </iframe>
-                     <iframe id="linkedin-article4" class="pdf-frame"
-                        src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7311087610913779712?collapsed=1"
-                        frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
-                    </iframe>
+                <div style="display: flex; justify-content: center; gap: 10px; width: 100%;">
+                    <button class="pdf-tab onclick" onclick="switchPDF('hdi')">
+                        <span class="pdf-icon">🫀</span>
+                        <span class="pdf-title">Data Interoperability in Healthcare</span>
+                    </button>
+                    <button class="pdf-tab" onclick="switchPDF('linkedin-article3')">
+                        <span class="pdf-icon">🧱</span>
+                        <span class="pdf-title">Raw-Materials & Agriculture</span>
+                    </button>
+                    <button class="pdf-tab onclick" onclick="switchPDF('linkedin-article4')">
+                        <span class="pdf-icon">🏭</span>
+                        <span class="pdf-title">Manufacturing Tech</span>
+                    </button>
                 </div>
             </div>
         </div>
+        <div class="pdf-viewer">
+            <iframe id="sci-tms" class="pdf-frame active"
+    src="https://docs.google.com/viewer?url=https://github.com/NUbivek/NUbivek.github.io/raw/main/SCI%20%26%20Mixed-TMS_AgenticSolutionThesis.pdf&embedded=true&rm=minimal"
+    frameborder="0" width="100%" height="700px" loading="lazy">
+            </iframe>
+            <iframe id="linkedin-article1" class="pdf-frame"
+                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7282123427535040512"
+                frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <iframe id="linkedin-article2" class="pdf-frame"
+                src="https://www.linkedin.com/embed/feed/update/urn:li:share:7280613944342265857"
+                frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
+            </iframe>
+            <iframe id="hdi" class="pdf-frame"
+    src="https://docs.google.com/viewer?url=https://github.com/NUbivek/NUbivek.github.io/raw/main/State%20of%20Health%20Data%20Interoperability%20%26%20VBC.pdf&embedded=true&rm=minimal"
+    frameborder="0" width="100%" height="700px" loading="lazy">
+            </iframe>
+             <iframe id="linkedin-article3" class="pdf-frame"
+                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7308752918734680064?collapsed=1"
+                frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
+            </iframe>
+             <iframe id="linkedin-article4" class="pdf-frame"
+                src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7311087610913779712?collapsed=1"
+                frameborder="0" width="100%" height="700px" style="display: none;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </div>
+</div>
         
 <div id="investment-memo" class="tab-content">
     <h2>Investment Memos</h2>
